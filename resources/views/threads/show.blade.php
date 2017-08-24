@@ -42,6 +42,14 @@
                     </form>
                 </div>
             </div>
+        @else
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p class="text-center">
+                        Please <a href="{{ route('login') }}">sign in</a> to participate in this discussion.
+                    </p>
+                </div>
+            </div>
         @endif
     </div>
 @endsection
